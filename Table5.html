@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,th,td{
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        tr,th,td{
+            padding: 10px;
+            border: 2px solid gray;
+            border-color: grey rgb(227, 226, 226) rgb(224, 222, 222) grey;
+        }
+        .one{
+            border: 6px solid black;
+            border-color: rgb(207, 205, 205) rgb(103, 102, 102) rgb(103, 102, 102) rgb(207, 205, 205) ;
+        }
+        .two{
+            border: 6px solid black;
+            border-color:  rgb(207, 205, 205) rgb(103, 102, 102) rgb(103, 102, 102) rgb(207, 205, 205);
+        }
+    </style>
+</head>
+<body>
+   <table class="one"><tr>
+    <th colspan="3">HTML Table</th>
+</tr>
+<tr>
+    <td>Cell 1</td>
+    <td style="text-align: center; padding-bottom: 20px;">Cell 2
+        <table class="two">
+            <tr>
+                <td colspan="2">Nested HTML Table</td>
+            </tr>
+            <tr>
+                <td>Cell 2.1</td>
+                <td>Cell 2.2</td>
+            </tr>
+            <tr>
+                <td>Cell 2.3</td>
+                <td>Cell 2.4</td>
+            </tr>
+        </table>
+    </td>
+</tr>
+   </table>
+     
+</body>
+</html>

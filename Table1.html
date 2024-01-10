@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     tr, td {
+    border: 2px solid black;
+    border-color: black grey grey black;
+}
+table{
+    border: 2px solid black;
+    border-color:  grey black  black grey;
+}
+textarea{
+    border: 2px solid black;
+}
+
+    </style>
+</head>
+<body><table >
+    <tr>
+        <td colspan="3" style="text-align: center;">Pizza Shop 2.0</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="text" id="text"></td>
+    </tr>
+    <tr>
+        <td>Pizza Topping</td>
+        <td colspan="2"><input type="radio" name="radio" id="radio" value="Supreme">Supreme<br>
+        <input type="radio" name="radio" id="radio" value="Supreme">Supreme<br>
+        <input type="radio" name="radio" id="radio" value="Supreme">Supreme
+        </td>
+    </tr>
+    <tr>
+    <td>Pizza Sauce</td>
+    <td colspan="2">
+   <select name="color" id="color"><option>Tomato</option></select>
+   </td>
+     </tr>  
+     <tr>
+        <td>Optional Extras</td>
+       <td> <input type="checkbox" name="checkbox" id="checkbox" value="extra">Extra Cheese
+       <input type="checkbox" name="checkbox" id="checkbox" value="gluten">Gluten Free Base</td>
+     </tr>
+     <tr>
+        <td colspan="2">Delivery Instructions: <br>
+             <textarea  name="add" id="add" cols="75" rows="4" ></textarea>
+                </td>
+    </tr>
+     <tr>
+        <td colspan="2"><input type="button" value="Send my Order"></td>
+     </tr>
+</table>
+</body>
+</html> 
